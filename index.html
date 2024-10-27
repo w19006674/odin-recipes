@@ -3,13 +3,32 @@
     <head>
         <meta charset="UTF-8">
         <title>odin</title>
+        <link rel="stylesheet" href="/css/styles.css">
     </head>
     <body>
-        <h1>Odin Recipes</h1>
+        <h1><u>Odin Recipes</u></h1>
         <nav>
-            <li><a href="recipes/curry.html">Curry</a></li>
-            <li><a href="recipes/fajitas.html">Fajitas</a></li>
-            <li><a href="recipes/proteinshake.html">protein shake</a></li>
+            <div class="curry">
+            <li><a href="recipes/curry.html" class="title">Curry</a></li>
+            <img src="/images/curry.jpg" alt="bowl of curry" height="200px" width="auto">
+            </div>
+            <div class="fajitas">
+            <li><a href="recipes/fajitas.html" class="title">Fajitas</a></li>
+            <img src="/images/fajitas.jpg" alt="fajitas" height="200px" width="auto">
+        </div>
+            <div class="proteinshake">
+            <li><a href="recipes/proteinshake.html" class="title">protein shake</a></li>
+        </div>
         </nav>
+        <form>
+            <p>sign in please</p>
+            <label for="user">username:</label>
+            <input type="text" id="first" name="first" placeholder="username">
+            <br>
+            <label for="password">password:</label>
+            <input type="password" id="password" name="password" placeholder="password">
+        </form>
+        <button type="submit">submit</button>
+
     </body>
 </html>
