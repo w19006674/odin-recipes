@@ -1,0 +1,46 @@
+body {
+    background-color: burlywood;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+.curry {
+    display: block;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 50px;
+    margin: 20px 50px;
+}
+
+.fajitas {
+    display: block;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 50px;
+    margin: 20px 50px;
+}
+
+.proteinshake {
+    display: block;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 50px;
+    margin: 20px 50px;
+}
+
+.title {
+    font-weight: 999;
+    font-size: 30px;
+}
+
+button {
+    background-color: white;
+    color: black;
+}
